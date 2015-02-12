@@ -5,11 +5,11 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
     <servlet>
-        <servlet-name>guestbook</servlet-name>
-        <servlet-class>com.test.GuestbookServlet</servlet-class>
+        <servlet-name>index</servlet-name>
+        <servlet-class>com.webhook.test.HelloWorldServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>guestbook</servlet-name>
-        <url-pattern>/guestbook</url-pattern>
+        <servlet-name>index</servlet-name>
+        <url-pattern>/*</url-pattern>
     </servlet-mapping>
 </web-app>
